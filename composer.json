@@ -1,0 +1,17 @@
+{
+    "name": "tcoders/token-login",
+    "description": "Laravel cross domain sso using custom login url and token",
+    "type": "plugin",
+    "autoload": {
+        "psr-4": {
+            "Tcoders\\TokenLogin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yasin",
+            "email": "yasin@tcoders.com"
+        }
+    ],
+    "require": {}
+}
