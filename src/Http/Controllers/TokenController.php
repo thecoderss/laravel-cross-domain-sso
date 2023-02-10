@@ -18,4 +18,8 @@ class TokenController extends Controller {
         Auth::login($user);
         return redirect('/' );
     }
+
+    public function enabled() {
+        return response()->json(['success' => 'success'], 200);
+    }
 }
